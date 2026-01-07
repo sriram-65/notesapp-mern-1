@@ -1,4 +1,4 @@
-const APIBASE = 'http://localhost:3000/api/notes'
+const APIBASE = 'https://backend-mern-project-1.vercel.app/api/notes'
 
 export function FetchNotes(){
    return fetch(APIBASE).then(res=>res.json())
